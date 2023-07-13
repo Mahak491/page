@@ -1,0 +1,59 @@
+/* Global Styles */
+body {
+  color: rgb(22, 22, 78);
+  padding: 2px;
+  margin: 5px;
+}
+
+header {
+  text-align: center;
+  font-family: Calibri;
+}
+
+.breadcrumb {
+  color: rgb(22, 22, 78);
+}
+
+.style {
+  font-size: large;
+  color: brown;
+  font-weight: bold;
+}
+
+i {
+  color: blueviolet;
+}
+
+.image {
+  max-width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+    margin: 10px;
+  }
+
+  header {
+    font-size: 24px;
+  }
+
+  .style {
+    font-size: medium;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    font-size: 20px;
+  }
+
+  .style {
+    font-size: small;
+  }
+
+  .image {
+    max-width: 80%;
+  }
+}
